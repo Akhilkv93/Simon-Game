@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <audio>
+            <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3">
+        </audio>
+        <h2 class="title" data-text="SimonGame">Simon Game</h2>
+    <div class="outer-circle">
+       
+        <div data-color="red" class=" top-left color-btn red"></div>
+        <div data-color="green" class="top-right color-btn green"></div>
+        <div data-color="yellow" class="bottom-left color-btn yellow"></div>
+        <div data-color="blue" class=" bottom-right color-btn blue"></div>
+        <div class="inner-circle">
+           <div class="count">0</div>
+           <div class="buttons">
+            <button class="start">start</button>
+            <button class="strict">strict</button>
+           </div>
+    <div class="checkbox-container">
+        <input type="checkbox" name="" id="" class="checkbox">
+    </div>
+        
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
